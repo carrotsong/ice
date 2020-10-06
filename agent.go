@@ -10,11 +10,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/mdns"
-	"github.com/pion/stun"
-	"github.com/pion/transport/packetio"
-	"github.com/pion/transport/vnet"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/mdns"
+	"github.com/carrotsong/stun"
+	"github.com/carrotsong/transport/packetio"
+	"github.com/carrotsong/transport/vnet"
 )
 
 type bindingRequest struct {

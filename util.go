@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/stun"
-	"github.com/pion/transport/vnet"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/stun"
+	"github.com/carrotsong/transport/vnet"
 )
 
 type atomicError struct{ v atomic.Value }

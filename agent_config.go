@@ -3,8 +3,8 @@ package ice
 import (
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/transport/vnet"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/transport/vnet"
 )
 
 const (
@@ -128,7 +128,7 @@ type AgentConfig struct {
 	RelayAcceptanceMinWait *time.Duration
 
 	// Net is the our abstracted network interface for internal development purpose only
-	// (see github.com/pion/transport/vnet)
+	// (see github.com/carrotsong/transport/vnet)
 	Net *vnet.Net
 
 	// InterfaceFilter is a function that you can use in order to  whitelist or blacklist

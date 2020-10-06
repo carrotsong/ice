@@ -1,6 +1,6 @@
 package ice
 
-import "github.com/pion/randutil"
+import "github.com/carrotsong/randutil"
 
 const (
 	runesAlpha                 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"

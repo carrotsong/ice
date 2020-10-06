@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/transport/test"
-	"github.com/pion/turn/v2"
+	"github.com/carrotsong/transport/test"
+	"github.com/carrotsong/turn/v2"
 	"github.com/stretchr/testify/assert"
 )
 

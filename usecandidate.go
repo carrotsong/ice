@@ -1,6 +1,6 @@
 package ice
 
-import "github.com/pion/stun"
+import "github.com/carrotsong/stun"
 
 // UseCandidateAttr represents USE-CANDIDATE attribute.
 type UseCandidateAttr struct{}

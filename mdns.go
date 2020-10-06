@@ -4,8 +4,8 @@ import (
 	"net"
 
 	"github.com/google/uuid"
-	"github.com/pion/logging"
-	"github.com/pion/mdns"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/mdns"
 	"golang.org/x/net/ipv4"
 )
 

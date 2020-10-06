@@ -5,9 +5,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/pion/logging"
-	"github.com/pion/stun"
-	"github.com/pion/transport/test"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/stun"
+	"github.com/carrotsong/transport/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

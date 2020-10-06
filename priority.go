@@ -3,7 +3,7 @@ package ice
 import (
 	"encoding/binary"
 
-	"github.com/pion/stun"
+	"github.com/carrotsong/stun"
 )
 
 // PriorityAttr represents PRIORITY attribute.

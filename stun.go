@@ -3,7 +3,7 @@ package ice
 import (
 	"fmt"
 
-	"github.com/pion/stun"
+	"github.com/carrotsong/stun"
 )
 
 func assertInboundUsername(m *stun.Message, expectedUsername string) error {

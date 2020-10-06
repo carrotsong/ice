@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/pion/logging"
-	"github.com/pion/stun"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/stun"
 )
 
 // TCPMux is allows grouping multiple TCP net.Conns and using them like UDP

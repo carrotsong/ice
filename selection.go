@@ -4,8 +4,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/stun"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/stun"
 )
 
 type pairCandidateSelector interface {

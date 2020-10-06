@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/stun"
-	"github.com/pion/transport/test"
-	"github.com/pion/transport/vnet"
-	"github.com/pion/turn/v2"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/stun"
+	"github.com/carrotsong/transport/test"
+	"github.com/carrotsong/transport/vnet"
+	"github.com/carrotsong/turn/v2"
 	"github.com/stretchr/testify/assert"
 )
 

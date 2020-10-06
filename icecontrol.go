@@ -3,7 +3,7 @@ package ice
 import (
 	"encoding/binary"
 
-	"github.com/pion/stun"
+	"github.com/carrotsong/stun"
 )
 
 // tiebreaker is common helper for ICE-{CONTROLLED,CONTROLLING}

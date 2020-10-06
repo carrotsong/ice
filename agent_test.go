@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/stun"
-	"github.com/pion/transport/test"
-	"github.com/pion/transport/vnet"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/stun"
+	"github.com/carrotsong/transport/test"
+	"github.com/carrotsong/transport/vnet"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -360,7 +360,7 @@ func TestHandlePeerReflexive(t *testing.T) {
 }
 
 // Assert that Agent on startup sends message, and doesn't wait for connectivityTicker to fire
-// github.com/pion/ice/issues/15
+// github.com/carrotsong/ice/issues/15
 func TestConnectivityOnStartup(t *testing.T) {
 	report := test.CheckRoutines(t)
 	defer report()

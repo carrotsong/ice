@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/pion/stun"
+	"github.com/carrotsong/stun"
 )
 
 func TestPriority_GetFrom(t *testing.T) { //nolint:dupl

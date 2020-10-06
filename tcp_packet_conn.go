@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pion/logging"
+	"github.com/carrotsong/logging"
 )
 
 type tcpPacketConn struct {
